@@ -1,0 +1,123 @@
+/*software para maquetar*/
+/*descargar JQuery*/
+<!--HTML5-frame-->
+@charset "utf-8";
+
+.caja .menu{
+    width: 50%;
+    opacity: 0.8;
+    background-color: darkred;
+    padding: 10px;
+    margin-bottom: 10px
+}
+.caja .banner{
+    
+    width: 50%;
+    height: 150%;
+    border: .5px solid;
+    border-color: black;
+    margin: auto;
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 100px;
+    animation: banner 10s infinite;
+    animation-direction:alternate;
+    margin-top: 10%;
+    
+}
+
+@keyframes banner{
+    0%, 30%{
+        background-image: url(img/naruto.jpg);
+        opacity: 1;
+    }
+    35%, 65%{
+        background-image: url(img/SAO.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 1;
+    }
+    70%, 100%{
+        opacity: 1;
+        background-image: url(img/GATE.png);
+    }
+}
+.caja .botones{
+    margin-top: -8%;
+    float: right;
+}
+.caja .menu{
+    float: right;
+    opacity: 0.8;
+    padding: 3px;
+    margin-bottom: 5px;
+    background-color: gray;
+}
+
+.caja .contenido{
+    
+    color: yellow;
+    opacity: 0.5;
+    width: 48%;
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 46px;
+    height: 25em;
+    float: left;
+    text-align: center;
+}
+.caja .destacados{
+    color: yellow;
+    opacity: 0.5;
+    float: right;
+    background-color: black;
+    float: right;
+    width: 48%;
+    padding: 5px;
+    margin-bottom: 1px;
+    height: 25em;
+    text-align: center;
+}
+.caja .pie{
+    color: yellow;
+    opacity: 0.5;
+    clear: both;
+    background-color: black;
+    padding: 5px;
+}
+ul{
+		list-style-type:none;
+		margin:2px;
+		padding: 0px;
+		border-left-width: 1px;
+		border-left-style: solid;
+		border-left-color: #ccc; 
+		overflow:hidden;
+	}
+	li{
+		display: inline;
+	}
+	a{
+		font-family: arial,Helvetica,Sans-serif;
+		color: #000;
+		text-decoration: none;
+		font-size: .99em;
+		display: block;
+		float: left;
+		padding: 6px;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #ccc;
+		background-color: #eaeaea;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #ccc;
+		border-right-width: 2px;
+		border-right-style: solid;
+		border-right-color: #ccc;
+	}
+
+</head>
